@@ -1,0 +1,1 @@
+Olá! Esse é o meu primeiro projeto de landing page utilizando HTML e CSS. Foram feitas várias experimentações com o Flexbox, buscando o o que mais se assemelharia ao design feito na plataforma Figma.

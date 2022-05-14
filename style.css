@@ -1,0 +1,119 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+body {
+    font-size: 100%;
+    background: linear-gradient(180deg, #B54996 0%, rgba(181, 73, 150, 0) 100%), #5C2593;
+}
+
+.cabecalho {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding-left: 80px;
+    padding-right: 80px;
+    padding-top: 4px;
+    padding-bottom: 4px;
+}
+
+.cabecalho-imagem {
+    height: 55px;
+}
+
+.cabecalho-menu {
+    display: flex;
+    gap: 32px;
+}
+
+.cabecalho-menu-item {
+    font-family: 'Nunito', sans-serif;
+    color: #FFFFFF;
+    font-weight: 400;
+    font-size: 20;
+}
+
+.conteudo {
+    margin-bottom: 48px;
+    border-top: 0.4px solid #FFFFFF;
+}
+
+.conteudo-principal {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    padding: 30px;
+}
+
+.conteudo-principal-escrito {
+    display: flex;
+    flex-direction: column;
+    gap: 38px;
+    justify-content: flex-start;
+    width: 540px;
+}
+
+.conteudo-principal-escrito-nome {
+    font-family: 'Nunito', sans-serif;
+    color: #FFFFFF;
+    font-weight: 400px;
+    font-size: 35px;
+}
+
+.conteudo-principal-escrito-titulo {
+    font-family: 'Nunito', sans-serif;
+    color: #FFFFFF;
+    font-weight: 700px;
+    font-size: 80px;
+}
+
+.conteudo-principal-escrito-subtitulo {
+    font-family: 'Nunito', sans-serif;
+    color: #FFFFFF;
+    font-weight: 400px;
+    font-size: 32px;
+}
+
+.conteudo-principal-escrito-botao {
+    background-color: #FFFFFF;
+    width: 312px;
+    height: 67px;
+    border: none;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 20px;
+    font-family: 'Nunito', sans-serif;
+    color: #000000;
+    font-weight: 400px;
+    font-size: 28px;
+}
+
+.conteudo-principal-escrito-botao:hover {
+    background-color: rgba(212, 202, 219, 1);
+}
+
+
+.conteudo-principal-escrito-imagem {
+    height: 600px;
+    mix-blend-mode: soft-light;
+}
+
+.rodape {
+    border-top: 0.4px solid #FFFFFF;
+}
+
+.rodape-texto {
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+    font-family: 'Nunito', sans-serif;
+    color: #FFFFFF;
+    font-weight: 600px;
+    font-size: 16px;
+}
