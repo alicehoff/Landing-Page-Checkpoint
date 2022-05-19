@@ -117,3 +117,77 @@ body {
     font-weight: 600px;
     font-size: 16px;
 }
+
+@media screen and (min-width: 320px) and (max-width: 600px) {
+    
+    .cabecalho {
+        min-width: 320px;
+        max-width: 600px;
+        padding: 8px;
+    }
+    
+    .cabecalho-imagem {
+        height: 40px;
+    }
+    
+    .cabecalho-menu {
+        gap: 10px;
+    }
+    
+    .cabecalho-menu-item {
+        font-size: 10px;
+    }
+    
+    .conteudo {
+        min-width: 320px;
+        max-width: 600px;
+        margin-bottom: 0px;
+    }
+    
+    .conteudo-principal {
+        flex-direction: column;
+        justify-content: center;
+    }
+    
+    .conteudo-principal-escrito {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        text-align: center;
+        gap: 30px;
+    }
+    
+    .conteudo-principal-escrito-nome {
+        font-family: 'Nunito', sans-serif;
+        color: #FFFFFF;
+        font-weight: 400px;
+        font-size: 30px;
+    }
+    
+    .conteudo-principal-escrito-titulo {
+        font-family: 'Nunito', sans-serif;
+        color: #FFFFFF;
+        font-weight: 700px;
+        font-size: 60px;
+    }
+    
+    .conteudo-principal-escrito-subtitulo {
+        padding: 15px;
+    }
+    
+    .conteudo-principal-escrito-botao {
+        width: 100%;
+    }
+    
+    
+    .conteudo-principal-escrito-imagem {
+        width: 100%;
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+    
+    .rodape {
+        min-width: 320px;
+        max-width: 600px;
+    }
+}
