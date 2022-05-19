@@ -117,3 +117,41 @@ body {
     font-weight: 600px;
     font-size: 16px;
 }
+@media (min-width: 320px) and (max-width: 600px) {
+
+    body {
+        min-width: 320px;
+        max-width: 600px;
+    }
+
+    .cabecalho {
+        padding: 4px;
+        justify-content: space-around;
+    }
+
+    .cabecalho-imagem {
+        height: 49px;
+    }
+
+    .cabecalho-menu-item {
+        font-size: 14px;
+    }
+    
+    .conteudo {
+        margin-bottom: 0px;
+    }
+    
+    .conteudo-principal {
+        flex-direction: column;
+    }
+
+    .conteudo-principal-escrito {
+        justify-content: center;
+        text-align: center;
+    }
+
+    .conteudo-principal-escrito-imagem {
+        height: 500px;
+        padding-top: 40px;
+    }
+}
